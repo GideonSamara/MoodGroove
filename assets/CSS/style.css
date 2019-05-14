@@ -1,7 +1,7 @@
 html {
 
     font-family:'Poiret One', cursive;
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/textured3.jpeg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,5 +12,5 @@ html {
     
     text-align: center;
     font-family: 'Poiret One', cursive;
-    color: rgba(170, 130, 0, 0.883);
+    color: rgba(190, 144, 58, 0.883);
 }
