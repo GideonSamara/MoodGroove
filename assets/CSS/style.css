@@ -8,3 +8,9 @@ html {
     background-size: cover;
 }
 
+.jumbotron {
+    
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    color: rgba(170, 130, 0, 0.883);
+}
