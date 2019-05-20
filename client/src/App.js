@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from "./Components/Navbar";
+import Nav from "./Components/Nav";
 import Jumbotron from './Components/Jumbotron';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from './Components/Button';
@@ -8,7 +8,7 @@ import Button from './Components/Button';
 function App() {
   return (
     <div className="App">
-    <Navbar/>
+    <Nav/>
     <Jumbotron/>
     <Button/>
     </div>
