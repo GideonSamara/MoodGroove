@@ -11,7 +11,7 @@ function getAPI(){
 }
     return(
         <div>
-            <button onClick={getAPI}>Submit</button>
+            <button className="btn btn-primary" onClick={getAPI}>Submit</button>
         </div>
     )
 }

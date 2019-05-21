@@ -1,13 +1,14 @@
 /* custom stylesheet */
 
-html {
+body, html {
 
     font-family:'Poiret One', cursive;
-    background-image: url("../images/background.jpg");
+    background-image: url("./images/background.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100%
 }
 
 .jumbotron {
@@ -15,4 +16,5 @@ html {
     text-align: center;
     font-family: 'Poiret One', cursive;
     color: rgba(170, 130, 0, 0.883);
+    background: none
 }

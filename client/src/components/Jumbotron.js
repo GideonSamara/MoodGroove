@@ -17,15 +17,11 @@ export default function Jumbotron() {
   return (
 
     <div>
-
-        Jumbotron
-
-        <div className = 'jumbotron jumbotron-fluid' style = {{background: 'rgb(97, 95, 95)'}}>
-
-            <h1 className = "font-weight-bold"> Mood <i className ="fas fa-headphones"></i> Groove</h1>
-
-            <h5 className = {styles.jumbotron}>  RHYTHM TO FEED YOUR SOUL </h5>
-
+        <div className="jumbotron jumbotron-fluid">
+            <div className="container">
+                <h1>Mood Groove</h1>
+                <h5>RHYTHM TO FEED YOUR SOUL</h5>
+            </div>
         </div>
       
     </div>
