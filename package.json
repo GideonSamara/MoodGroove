@@ -1,20 +1,19 @@
 {
-  "name": "MoodGroove",
+  "name": "moodgroove",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GideonSamara/MoodGroove.git"
+    "start": "npm run kill && concurrently \"cd server && nodemon --inspect server\" \"cd client && npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "kill": "kill-port 3000 && kill-port 3001 && kill-port 9229",
+    "install-all": "npm i && cd server && npm i && cd ../client && npm i"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GideonSamara/MoodGroove/issues"
-  },
-  "homepage": "https://github.com/GideonSamara/MoodGroove#readme"
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "kill-port": "^1.3.2"
+  }
 }

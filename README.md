@@ -1,11 +1,7 @@
 # MoodGroove
 
-client = Front End
-to run
-```sh
-npm start
-```
-server = Back End
-```sh
-nodemon server.js
-```
+clone this repo
+$ npm run install-all
+$ touch server/.env && echo 'SECRET=whateveryouwant' > server/.env
+$ mongod
+$ npm start
