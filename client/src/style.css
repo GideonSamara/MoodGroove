@@ -1,0 +1,24 @@
+/* custom stylesheet */
+
+html {
+
+    font-family:'Poiret One', cursive;
+    background-image: url("../images/textured3.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+
+    font-family: 'Poiret One', cursive;
+    
+}
+
+.jumbotron {
+    
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    color: rgba(190, 144, 58, 0.883);
+}
