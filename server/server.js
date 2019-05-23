@@ -1,22 +1,18 @@
-const express = require('express');
+const express = require('express'),
 
-const app = express();
+     app = express(),
+     
+     logger = require('morgan'),
+     
+     userRoutes = require('./routes/user');
 
-const logger = require('morgan');
-
-const mongoose = require('mongoose');
-
-const userRoutes = require('./routes/user');
+require('./config/connection');
 
 app.use(logger('dev'))
 
 app.use(express.urlencoded({extended: true}));
 
 app.use(express.json());;
-
-mongoose.connect(process.env.DATABASEURL || 'mongodb://localhost/MoodGroove',  {useNewUrlParser: true});
-
-mongoose.set('debug', true);
 
 app.use('/users', userRoutes);
 
