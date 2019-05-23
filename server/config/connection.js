@@ -7,3 +7,5 @@ mongoose.connect(process.env.DATABASEURL || 'mongodb://localhost/MoodGroove',  {
     useCreateIndex: true,
 
 });
+
+mongoose.set('debug', true);

@@ -1,12 +1,14 @@
 const router = require('express').Router();
 
-const {logout, login, signup} = require('../controller/user');
+const {cookieCheck, signup,  login, logout} = require('../controller/user');
 
-router.get('/logout', logout);
+router.get('/authorized', cookieCheck);
+
+router.post('/signup', signup);
 
 router.post('/login', login);
 
-router.post('/signup', signup);
+router.get('/logout', logout);
 
 module.exports = router;
 

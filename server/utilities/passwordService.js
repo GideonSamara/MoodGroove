@@ -18,13 +18,13 @@ async function hashPassword(myPlaintextPassword) {
     }
 }
 
-async function checkPassword(someOtherPlainText) {
+async function comparePassword(someOtherPlainText) {
 
     try {
 
-        let checkPassword = await bcrypt.compare(someOtherPlainText, hash);
+        let match = await bcrypt.compare(someOtherPlainText, hash);
 
-        return checkPassword;
+        return match;
 
     }
 
@@ -35,4 +35,4 @@ async function checkPassword(someOtherPlainText) {
     }
 }
 
-module.exports = {hashPassword, checkPassword};
+module.exports = {hashPassword, comparePassword};
