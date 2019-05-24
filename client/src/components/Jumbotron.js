@@ -1,16 +1,5 @@
 import React from 'react';
 
-const styles = {
-
-    jumbotron: {
-    
-        textAlign: 'center',
-        fontFamily: "'Poiret One', cursive",
-        color: 'rgba(170, 130, 0, 0.883)',
-    
-    }
-
-}
 
 export default function Jumbotron() {
 
@@ -18,11 +7,9 @@ export default function Jumbotron() {
 
     <div>
 
-        <div className = 'jumbotron jumbotron-fluid' style = {{background: 'rgb(97, 95, 95)'}}>
+        <div className = 'jumbotron jumbotron-fluid'>
 
-            <h1 className = "font-weight-bold"> Mood<span className="glyphicon glyphicon-fire"></span>Groove</h1>
-
-            <h4 className = {styles.jumbotron}>  RHYTHM TO FEED YOUR SOUL </h4>
+            <h2 className = "font-weight-bold">Rhythm To Feed Your Soul</h2>
 
         </div>
       

@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from "./components/Button";
+//import Button from "./components/Button";
 import Jumbotron from "./components/Jumbotron";
 import Nav from "./components/Nav"
 import "./style.css";
@@ -13,7 +13,7 @@ function App() {
       <Nav/>
       <Jumbotron/> 
       <ValidatedLoginForm/>
-      <Button/>
+     {/* <Button/> */}
     </div>
   );
 }
