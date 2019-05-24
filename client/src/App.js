@@ -1,11 +1,9 @@
 import React from 'react';
-import Button from "./Components/Button";
-import Jumbotron from "./Components/Jumbotron";
-import Nav from "./Components/Nav"
+import Button from "./components/Button";
+import Jumbotron from "./components/Jumbotron";
+import Nav from "./components/Nav"
 import "./style.css";
-import ValidatedLoginForm from "./Components/ValidatedLoginForm"
-
-//Get our fontawesome
+import ValidatedLoginForm from "./components/ValidatedLoginForm"
 
 
 
