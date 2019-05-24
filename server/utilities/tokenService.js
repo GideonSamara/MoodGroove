@@ -20,7 +20,7 @@ async function validToken(token) {
 
   try {
 
-    var decoded = await jwt.verify(token, SECRET);
+    var decoded = await webToken.verify(token, SECRET);
 
     return decoded;
 
