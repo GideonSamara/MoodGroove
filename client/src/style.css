@@ -3,7 +3,7 @@
 html {
 
     font-family:'Poiret One', cursive;
-    background-image: url("../images/background.jpg");
+    background-image: url("./images/house-of-alice-cubic-shimmer-metallic-wallpaper-grey-copper-p5736-15259_image.jpeg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -14,5 +14,6 @@ html {
     
     text-align: center;
     font-family: 'Poiret One', cursive;
-    color: rgba(170, 130, 0, 0.883);
+    color: rgb(161, 87, 3);
+    
 }

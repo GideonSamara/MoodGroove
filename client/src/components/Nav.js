@@ -2,12 +2,13 @@ import React from 'react';
 
 export default function Nav() {
 
-  return (
+ return (
 
-    <div>
+  <div>
 
-        Nav
-      
-    </div>
-  );
-}
+    
+  </div>
+
+ )
+
+};
